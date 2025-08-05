@@ -116,7 +116,7 @@ export default function App() {
     window.addEventListener('keydown', handleKeyDown);
 
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [board, moveTiles]);
+  });
 
   return (
     <div className="App">
