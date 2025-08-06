@@ -3,6 +3,7 @@ import './App.css';
 
 type Direction = 'up' | 'down' | 'left' | 'right' | null;
 type Board = number[][];
+
 const BOARD_SIZE = 4;
 
 export default function App() {
