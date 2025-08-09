@@ -121,6 +121,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <div>2048 Game</div>
       <div className="board">
         {board.map((row) =>
           row.map((square, i) => (
